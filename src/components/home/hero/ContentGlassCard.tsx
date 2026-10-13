@@ -11,7 +11,7 @@ export default function ContactGlassCard() {
         <div>
           <h3 className="font-semibold text-primary-800">تماس با ما</h3>
 
-          <p className="mt-2 text-sm text-primary-700 opacity-80">0912 345 6789</p>
+          <p className="mt-2 text-sm text-primary-700 opacity-80">0912-345-6789</p>
 
           <p className="text-sm text-primary-700 opacity-80">info@drbanafsheh.com</p>
         </div>

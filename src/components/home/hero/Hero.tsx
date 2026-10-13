@@ -5,13 +5,13 @@ import Image from "next/image";
 
 import ContactGlassCard from "./ContentGlassCard";
 import HeroFeatures from "./HeroFeatures";
-import PrimaryButton from "../ui/PrimaryButton";
-import SecondaryButton from "../ui/SecondaryButton";
+import PrimaryButton from "../../ui/PrimaryButton";
+import SecondaryButton from "../../ui/SecondaryButton";
 
 export default function Hero() {
   return (
     <section className="relative min-h-screen overflow-hidden bg-[url(/img/hero-bg.png)]">
-      <div className="mx-auto grid max-w-7xl justify-center px-6 pt-10 md:grid-cols-2 md:items-center md:gap-10 md:pt-32">
+      <div className="mx-auto max-w-7xl grid justify-center px-6 pt-10 md:grid-cols-2 md:items-center md:gap-10 md:pt-32">
         {/* تصویر */}
 
         <div className="relative flex justify-center md:order-2">
